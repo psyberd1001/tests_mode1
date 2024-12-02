@@ -1,0 +1,23 @@
+2024-12-02 07:57:04,455 | WARNING | Неверный тип данный для объекта Runner
+Traceback (most recent call last):
+  File "C:\Users\Alex\PycharmProjects\pythonProject\.venv\tests1\tests_Runner.py", line 34, in test_challenge
+    runner2 = Runner.Runner('<NAME2>', bool, type)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Runner.__init__() takes from 2 to 3 positional arguments but 4 were given
+2024-12-02 07:57:04,456 | WARNING | Неверный тип данныйх для объекта Runner
+Traceback (most recent call last):
+  File "C:\Users\Alex\PycharmProjects\pythonProject\.venv\tests1\tests_Runner.py", line 22, in test_run
+    runner1 = Runner.Runner('<NAME1>', True, bool)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Runner.__init__() takes from 2 to 3 positional arguments but 4 were given
+2024-12-02 07:57:04,458 | WARNING | Неверная скорость для объекта Runner
+Traceback (most recent call last):
+  File "C:\Users\Alex\PycharmProjects\pythonProject\.venv\tests1\tests_Runner.py", line 14, in test_walk
+    self.assertEqual(runner_distance, 50)
+  File "C:\Program Files\JetBrains\PyCharm 2024.2.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\unittest\case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python312\Lib\unittest\case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: -100 != 50
